@@ -24,3 +24,5 @@ class Felixcoin(Sha256Chain):
         chain.script_addr_vers = '\x05'
         chain.magic = '\xf9\xbe\xb4\xd9'
         Sha256Chain.__init__(chain, **kwargs)
+
+    datadir_conf_file_name = "felixcoin.conf"
