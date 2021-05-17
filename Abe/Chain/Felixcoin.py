@@ -26,3 +26,4 @@ class Felixcoin(Sha256Chain):
         Sha256Chain.__init__(chain, **kwargs)
 
     datadir_conf_file_name = "felixcoin.conf"
+    datadir_rpcport = 22555
